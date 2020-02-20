@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Corey Pembleton's CV"
+author: Corey Pembleton
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -113,7 +113,9 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+Template created by [Nick Strayer](https://github.com/nstrayer/cv). 
+
+The source code is available at [github.com/pembletonc/cv](https://github.com/pembletonc/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -122,7 +124,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Corey Pembleton {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
