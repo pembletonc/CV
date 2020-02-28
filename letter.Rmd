@@ -1,0 +1,43 @@
+---
+title: "EvalYouth Evaluation 2020 Letter"
+author: "Corey Pembleton"
+output:
+  pagedown::html_letter:
+    css: ["css/font.css", "letter"]
+    self_contained: false
+    front_cover: sig.jpg
+links-to-footnotes: false
+paged-footnotes: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+
+::: from  
+Corey Pembleton   
+Montreal, Canada, H2V 1V1   
+Email: pembletonc@gmail.com   
+Homepage: data-break.netlify.com
+:::
+
+
+Hiring Manager  
+EvalYouth
+
+::: date
+`r Sys.Date()`
+:::
+
+Dear EvalYouth evaluation manager,
+
+It is my pleasure to submit this proposal to execute the EvalYouth 2020...
+
+
+
+
+
+
+![Corey's signature](signature.png)  
+Corey Pembleton, M.Es, B.Es   
+Montreal, Canada
+
