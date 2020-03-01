@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Spartan&display=swap");
+
+/* paragaphe et liste */
+p, ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #444;
+}
+
+/* titres */
+h1, h2, h3, h4 {
+  color: #003a5d;
+  font-family: "Spartan";
+  font-weight: bold;
+}
+
+/* tableaux - avec gt */
+/* titres */
+th {
+  background-color: #003a5d !important;
+  color: #ffffff !important;
+  font-family: "Roboto" !important;
+  font-weight: bold !important;
+}
+
+/* colonnes de group */
+.gt_group_heading {
+  color: #003a5d !important;
+  font-family: "Roboto" !important;
+  font-weight: bold !important;
+}
+
+/* contenu */
+td {
+  color: #003a5d;
+  font-family: "Roboto";
+}
+
+/* eviter les tableaux multipages */
+.gt_table{
+  break-inside: avoid;
+}
+
+/* numerotation pages */
+.pagedjs_margin-content{
+  color: #003a5d;
+  font-family: "Roboto";
+  font-weight: bold;
+}

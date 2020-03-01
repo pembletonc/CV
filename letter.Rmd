@@ -5,7 +5,6 @@ output:
   pagedown::html_letter:
     css: ["css/font.css", "letter"]
     self_contained: false
-    front_cover: sig.jpg
 links-to-footnotes: false
 paged-footnotes: false
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -21,18 +20,27 @@ Homepage: data-break.netlify.com
 :::
 
 
-Hiring Manager  
-EvalYouth
+EvalYouth co-chairs and secretariat
 
 ::: date
 `r Sys.Date()`
 :::
 
-Dear EvalYouth evaluation manager,
+Dear co-chairs and secretariat,
 
-It is my pleasure to submit this proposal to execute the EvalYouth 2020...
+It is my pleasure to submit the technical proposal for the evaluation of the Global Mentoring Program 2019 (Post-Pilot Phase). As an emerging evaluator with two years' experience in monitoring and evaluation, and five years' experience in international development, I feel that beyond my meeting the requirements as described in the Terms of Reference (technical proposal, page 2), I additionally would be building my own capacity in performing this evaluation, a contribution in itself to the goals of EvalYouth.  
 
+I hold a Master's degree in Geography (Environmental Management) and a Bachelor's degree in international development, both from the University of Waterloo, Canada.  
 
+In addition to this technical qualification, my experience and skills as an evaluator are strongly aligned with the needs of this assignment:  
+
+-  *Experience in evaluation document review and analysis:* As junior consultant at Univeralia Management Group, I have been the main consultant responsible for the collection, management, and analysis of documents in a range of complex evaluations of multi-stakeholder initiatives, using various mixed-methods techniques for reviewing, synthesizing and presenting findings from documentation.  
+-  *Experience in reviewing and analyzing survey data:* I have developed or participated in the development of survey methodologies for numerous evaluations and programs, including for the [Community Solution Network Smart City Challenge](https://www.evergreen.ca/our-projects/community-solutions-network/), Evaluation of the IDRC Governance and Justice Program, [Evaluation of the Readiness and Preparatory Support Programme](https://www.greenclimate.fund/document/gcf-b21-28), and several others available upon request.
+-  *Experience evaluating multi-stakeholder initiatives:* Analysis for Options for Long-Term Institutional Planning for the International Aid Transparency Initiative (IATI), Evaluation of the Governance of the Gavi Alliance, Evaluative Study of the Global Partnership for Education support to Education Sector Planning, Mid-term review of the Joint SDC-SNSF Swiss Programme for Research on Global Issues for Development.  
+
+My attached CV contains writing samples, the most recent of which being the flagship document produced by the Community Solution Network, The [State of Open Smart Communities Report, 2019](https://www.opennorth.ca/publications/#the-state-of-open-smart-communities-2019). 
+
+Thank you for taking the time to review my proposal, and I am thankful to the EvalYouth Task Force II for providing this opportunity.
 
 
 

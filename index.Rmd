@@ -117,7 +117,7 @@ Corey Pembleton {#title}
 print_text_block(text_blocks, 'intro')
 ```
 
-Experience {data-icon=suitcase}
+Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ print_text_block(text_blocks, 'education_aside')
 <br>
 
 
-Evaluation Experience {data-icon=suitcase}
+ Select Evaluation Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 

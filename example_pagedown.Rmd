@@ -1,0 +1,174 @@
+---
+title: "External Review of the EvalYouth Global Mentoring Program 2019 (Post-Pilot Phase)"
+subtitle: "Technical Proposal"
+author: "Corey Pembleton"
+date: "February 2020"
+output: 
+  pagedown::html_paged:
+    css: 
+    - "css/sgdf.css"
+    - "css/custom-page_sgdf.css"
+knit: pagedown::chrome_print
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE,
+	dpi = 300,
+	out.width = 2100
+)
+```
+
+```{r packages}
+library(tidyverse)
+library(kableExtra)
+```
+
+
+
+``` {r}
+# définir un scale
+vect_col4 <- c("#ff8300", "#0077b3", "#d03f15", "#007254")
+vect_col5 <- c("#ff8300", "#0077b3", "#d03f15", "#007254", "#65bc99")
+vect_col8 <- c("#003a5d", "#ff8300", "#0077b3", "#d03f15", "#007254", "#65bc99", "#6e74aa", "#003a5d")
+```
+
+>
+> # Value Proposition
+>
+> I am pleased to submit this technical proposal to the EvalYouth Network for the External Review of the EvalYouth Global Mentoring Program 2019 (Post-Pilot Phase). As per the instructions provided, this document contains an introductory letter, technical proposal, and my curriculum vitae.
+> I believe that my experience, background, and skills qualify me to conduct this mandate to the satisfaction of all stakeholders involved.  
+>
+  My added value lies in three main aspects, as detailed in this proposal:  
+> **1. Ample experience in qualitative analysis in international development evaluations** 
+>
+> **2. Experience in evaluating multi-stakeholder partnerships and organizations**  
+>
+> **3. Experience in assessing functional and technical components of learning management systems**
+>
+
+# Introduction
+
+## Understanding of the Assignment
+
+Launched in 2015, EvalYouth was launched as a global, multi-stakeholder partnership tp promote young and emerging evaluators entering the profession. EvalYouth has two main goals: promoting young and emerging evaluators to become experienced, competent, and well-networked professionals; and promoting the inclusion of youth and young people (including women) in national, regional and international evaluations. To meet these goals, EvalYouth has four task forces, the most relevant to this assignment being Task Force II: Global Mentoring Program. Task Force II is dedicated to implementing EvalYouth Mentoring programs for Young and Emerging Evaluators (YEEs) by supporting novice evaluators and young professionals to become skilled professionals that can take up evaluation roles in their communities and countries.  
+
+## Summary of consultant's qualifications
+
+```{r}
+
+tribble(
+  ~"Requirement", ~"Consultant's Qualification",
+  "Be a young and emerging evaluator", "I am 30 years old and have 2 years of experience as a program evaluator.",
+"Bachelor’s Degree in Evaluation, International Development, Public Policy/Administration, Development Economics/Planning, Management, and/or any related discipline. Master’s degree will be an asset but not required", "I hold a Master's degree in Environmental Studies (geospatial analysis), a bachelor's degree in International Development, and several professional certifications and diplomas relevant to the field.",
+
+" ", " ",
+
+"One to three (1-3) years of relevant work experience in international development and monitoring and evaluation", "Prior to my current position in program implementation, I was an international development evaluation junior consultant at Universalia Management Group (Montreal, Canada)",
+
+" ", " ",
+
+"Excellent verbal and written communication skills in English;", "I am a native English speaker and have 10 years' experience writing in a professional setting", 
+
+" ", " ",
+
+
+"Excellent analytical skills and ability to formulate clear, actionable and evidence-based recommendations", "I have meaningfully contributed to the creation of actionable, utility-focused and evidence-based recommendations in five large-scale international evaluations. I have five years' experience performing quantitative and qualitative analysis using the R statistical programming language ",
+
+" ", " ",
+
+
+"Experience in assessing and or participating in mentoring programs is an asset.", "Since February 2019 I have been a part of the core team of community mentors / advisors building the capacity of municipal staff through learning management systems, in-person consulting, and workshops. I have been involved with Code for Canada's mentoring program for the past 6 months."
+  
+) %>% 
+  kable() %>% 
+  kable_styling(bootstrap_options = "striped", full_width = T, font_size = 12, position = "center")
+
+```
+
+
+
+
+## Context and Rationale
+
+In the context of this evaluation, Task Force II implemented the two phases of its Global Mentoring Program in 2016 and 2019, with a pilot phase which ran from 2017 - 2018, and subsequently had an evaluation performed. The second phase, which was twice the size of the first, included four modules: Module 1: Connecting and bonding; Module 2: The world of design, monitoring and evaluation; Module 3: Actors and opportunities in the evaluation ecosystem; and Module 4: Thinking about the future. Mentors and mentees connected and held meetings on various social media platforms, held regular meetings, and used a customized learning management system implemented by EvalYouth.  
+
+
+## Objectives and Scope
+
+**Objectives**  
+Task Force II seeks to know the lessons-learned, achievements, successes, strengths, failures, and weaknesses of Phase 2 to inform the design of the next phase of the program, and has developed the following objectives for this evaluation to do so:    
+1. Review progress made after the external evaluation of the Pilot Phase of the Program;  
+2. Provide a snapshot independent assessment of the relevance, effectiveness, efficiency, and sustainability of the Global Mentoring Program;  
+3. Provide an assessment of the coordination and integration with local and regional VOPEs;  
+4. Draw key lessons from the Second Phase and provide a set of forward-looking, feasible recommendations to improve the design of the next mentoring program phase.  
+
+**Scope**  
+This external review primarily focuses on the second phase of the mentoring program; however, findings from the first phase (Pilot Phase) would also be used as part of the documents review. The second phase was implemented in 2019 with a global geographic scope, and this evaluation will be reflective of this.
+
+# Proposed Approach
+
+## Overall Approach
+
+This evaluation is underpinnded by the OECD-DAC evaluation criteria, particularly effectiveness, efficiency, and sustainability, and is guided by several principles. Given the size of the assignment, an evaluation framework will not be developed, however data will be analyzed according to their contribution to the UNEG and OECD-DAC evaluation quality standards in a similar fashion.  
+
+**Utilization-Focused**  
+Given the strong learning purpose of the assignment, the consultant suggests adopting a utilization-focused framework (as was adopted in the first phase), whose main objective is to be useful to the intended users in terms of providing learning, informing decision-making and improving performance to guide implementation decisions in the third phase of the program.
+
+**Participatory**  
+Although there is no primary data collection within the scope of this evaluation, the consultant will work closely with the Task Force II team and all other relevant stakeholders to ensure that this evaluation is as participatory as possible, and necessary. As stipulated in the Terms of Reference, discussions with Task Force II leaders and members about the process will be held as necessary to ensure the work is aligned with the needs of the Task Force.
+
+
+## Methodology
+
+### Desk Review  
+*Desk review of all relevant program documents including, pilot phase evaluation, program concept notes, learning modules, lessons learned document, and meeting minutes and email communication with mentors and mentees*  
+
+Using a systematic qualitative analysis approach, all documents will be reviewed according to how they measure against relevant OECD-DAC criteria to this assignment. All data will be reviewed and compiled into spreadsheets, and shared as an appendix in the final report.
+
+### Survey Analysis  
+*Desk review of the 2019 program participants survey already conducted by the task force*  
+
+Depending on the size of the survey results for review, data visualization of quantitative results may be performed using the R statistical programming language. All qualitative responses will be included in this analysis. Survey question methodology will be given a light-touch review to better align this desk review with subsequent analysis. 
+
+### Learning Management System Review  
+*Review of the EvalYouth’s Moodle online learning management system and participants’ assignments/submissions*
+
+Having recently conducted a market assessment of 20 learning management systems, I propose a comparative review of the Moodle LMS to other industry-leading LMS systems to determine it's fit for purpose.   
+
+All course results will be reviewed, including the way which knowledge and capacity growth is measured within the system, and how it is analyzed outside of the system.
+
+
+# Financial Proposal
+
+## Workplan
+
+No suggested changes to the workplan and timing as presented in the Terms of Reference.
+
+## Financial Proposal
+Given the size of this assignment and the predominantly learning-focused orientation, I propose a daily rate at a fraction of normal pay rates, at $150 USD/day. The proposed breakdown of tasks will vary dependent upon the amount of documents, size of the survey, etc., and as such as flexible to change given that it remains within the EvalYouth Budget.  
+
+```{r}
+
+tribble(
+  ~"Activity", ~"Estimated Days", ~"Total Cost",
+  "Document Review", "2", "$300.00",
+  "Survey Analysis & Visualization", "1", "$150.00",
+  "Learning Management System Review", ".5", "$75.00",
+  "Draft Report", "4", "$600.00",
+  "Final Report", "2", "$300.00",
+  "Meetings and Evaluation Management", ".5", "$75.00",
+  "Total", "", "$1,500"
+)  %>% 
+  kable() %>% 
+  kable_styling(bootstrap_options = "striped", full_width = T, font_size = 12, position = "center")
+
+```
+
+
+
+
+
+
